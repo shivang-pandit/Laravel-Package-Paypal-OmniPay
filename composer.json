@@ -1,0 +1,33 @@
+{
+    "name": "shivang-pandit/payment-gateway-paypal-omnipay",
+    "type": "library",
+    "description": "PayPal driver for the Omnipay payment processing library",
+    "keywords": [
+        "paypal",
+        "gateway",
+        "merchant",
+        "omnipay",
+        "pay",
+        "payment",
+        "payments"
+    ],
+    "homepage": "https://github.com/shivang-pandit/payment-gateway-omnipay-paypal/tree/master",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shivang Pandit",
+            "email": "shivang512@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Omnipay\\PayPal\\" : "src/" }
+    },
+    "require": {
+        "league/omnipay": "^3"
+    },
+    "require-dev": {
+        "omnipay/tests": "^3",
+        "squizlabs/php_codesniffer": "^3",
+        "phpro/grumphp": "^0.14"
+    }
+}
